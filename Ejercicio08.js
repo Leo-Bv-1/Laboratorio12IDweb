@@ -1,3 +1,5 @@
 const convertirAMayusculas = function (texto) {
-    texto.toUpperCase();
+    return texto.toUpperCase();
 };
+
+console.log(convertirAMayusculas("hola"));
